@@ -1,0 +1,49 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #D9D9D9;
+  --grey-dark-color: #3A3A3A;
+  --red-color: #FF0000;
+  --btn-color: #00773E;
+  --background-color: #C9C9C9;
+}
+
+body {
+  background: var(--background-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: var(--grey-dark-color);
+  font-weight: 200;
+}
+
+.add-todo-btn {
+  background: transparent;
+  color: var(--grey-dark-color);
+  font-size: 18px;
+}
+
+.del-todo-btn {
+  background: transparent;
+  color: var(--red-color);
+  font-size: 18px;
+}
+
+.complete-btn {
+  background: var(--btn-color);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.textfield, .card-container {
+  background:  var(--primary-color);
+}
+
