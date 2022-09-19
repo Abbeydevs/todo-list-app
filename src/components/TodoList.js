@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import "./TodoList.css";
+
+
+import Todos from "../components/Todos";  
+
 
 const TodoList = () => {
   return (
-    <div>TodoList component is working</div>
-  )
-}
+    <div>
+      <ul className="todo-list">
+        {/* <Todos /> */}
+      </ul>
+    </div>
+  );
+};
 
 export default TodoList;
