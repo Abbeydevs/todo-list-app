@@ -9,11 +9,6 @@ const Form = ({ setInputText }) => {
     setInputText(e.target.value);
   };
 
-  //Submit the form
-  const handleSubmit = (e) => {
-    console.log(e.target.value);
-  };
-
   return (
     <form>
       <div className="form-container">
