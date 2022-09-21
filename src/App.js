@@ -5,6 +5,19 @@ import TodoList from "./components/TodoList";
 
 function App() {
 
+
+  /*
+
+  1. Activate the complete button
+  2. Filter or sort the list of todo items
+  3. Save our todos in a local storage or server
+  
+  */
+
+
+
+
+
   //This function is called when we get values from our input field
   const [inputText, setInputText] = useState("");
 
